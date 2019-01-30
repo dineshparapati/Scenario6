@@ -160,7 +160,9 @@
     <Content Include="PkgFolder\Content\en-us\WelcomeHtml\Images\top_item_selected_bg.gif">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="PkgFolder\CS.xml" />
+    <Content Include="PkgFolder\CS.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="PkgFolder\ImportConfig.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -170,7 +172,9 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="PkgFolder\CustomEntity.csv" />
+    <None Include="PkgFolder\CustomEntity.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
