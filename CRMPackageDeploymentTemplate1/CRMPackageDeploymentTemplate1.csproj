@@ -163,6 +163,7 @@
     <Content Include="PkgFolder\ImportConfig.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="PkgFolder\Opportunites.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
