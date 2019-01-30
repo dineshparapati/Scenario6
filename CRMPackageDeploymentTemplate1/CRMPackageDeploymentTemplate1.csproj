@@ -163,14 +163,18 @@
     <Content Include="PkgFolder\ImportConfig.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="PkgFolder\Opportunites.xml" />
+    <Content Include="PkgFolder\Opportunites.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="PkgFolder\My Open Opportunities 1-29-2019 4-14-45 PM.csv" />
+    <None Include="PkgFolder\My Open Opportunities 1-29-2019 4-14-45 PM.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
